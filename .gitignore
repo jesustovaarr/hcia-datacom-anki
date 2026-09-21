@@ -1,0 +1,14 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Anki backups y archivos temporales
+*.anki2
+*.anki2-journal
+*.bak
+
+# Entornos y caches
+__pycache__/
+*.py[cod]
+.venv/
+env/
