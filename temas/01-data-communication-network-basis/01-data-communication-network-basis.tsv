@@ -1,0 +1,31 @@
+#separator:tab
+#html:true
+#tags column:2
+#notetype:Cloze
+#deck:HCIA-Datacom
+En el proceso de comunicación por capas, la información transmitida que una capa inferior recibe desde una capa superior se denomina {{c1::data payload}}.	hcia::fundamentos::conceptos
+La estructura general de un paquete de red se compone de {{c1::header}}, {{c2::data payload}} y {{c3::tail}}, aunque este último segmento suele omitirse en muchos protocolos.	hcia::fundamentos::conceptos
+El proceso de añadir encabezados o colas de control a los datos de una capa superior se denomina {{c1::encapsulation}}.	hcia::fundamentos::conceptos
+El proceso de retirar el header y el tail de un paquete para recuperar el data payload original se denomina {{c1::decapsulation}}.	hcia::fundamentos::conceptos
+El término {{c1::gateway}} se define por su ubicación y función para conectar redes distintas, y no por ser un modelo de hardware específico.	hcia::fundamentos::conceptos
+En una red de campus, los switches de la capa de acceso operan típicamente en {{c1::Layer 2}}.	hcia::fundamentos::dispositivos
+En arquitectura de red, el dispositivo cuya función principal es aislar broadcast domains es el {{c1::router}}.	hcia::fundamentos::dispositivos
+Un broadcast domain se define como el conjunto de nodos de red que {{c1::reciben un paquete de broadcast emitido por cualquiera de ellos}}.	hcia::fundamentos::dispositivos
+Un router opera en {{c1::Layer 3}} y reenvía paquetes basándose en la dirección {{c2::IP de destino}}.	hcia::fundamentos::dispositivos
+En una red corporativa, los dispositivos terminales de usuario se conectan directamente al {{c1::switch}} en la capa de acceso.	hcia::fundamentos::dispositivos
+Un firewall controla y filtra el tráfico entre redes con diferentes {{c1::security levels}} mediante la aplicación de {{c2::security policies}}.	hcia::fundamentos::dispositivos
+Las tecnologías Wi-Fi de redes WLAN se basan en la familia de estándares {{c1::IEEE 802.11}}.	hcia::fundamentos::wlan
+Un {{c1::Fat AP}} opera de forma autónoma, requiere configuración individual y se utiliza habitualmente en entornos residenciales o pequeñas redes.	hcia::fundamentos::wlan
+En redes WLAN empresariales, el dispositivo indispensable para centralizar la configuración y gestión de los Fit APs es el {{c1::Access Controller}}.	hcia::fundamentos::wlan
+Los APs bajo el modo {{c1::cloud-based management}} se gestionan de forma unificada mediante una plataforma en la nube y admiten despliegue plug-and-play.	hcia::fundamentos::wlan
+En la arquitectura jerárquica de campus, un Access Controller se despliega típicamente en la capa de {{c1::aggregation}}.	hcia::fundamentos::wlan
+Una red {{c1::LAN}} cubre un área geográfica local reducida y emplea típicamente tecnologías como Ethernet y Wi-Fi.	hcia::fundamentos::redes
+Una red {{c1::MAN}} cubre el ámbito geográfico de una ciudad y suele emplear tecnologías como Ethernet de alta velocidad o WiMAX.	hcia::fundamentos::redes
+En redes WAN tradicionales de larga distancia, dos protocolos comunes de Layer 2 son {{c1::HDLC}} y {{c2::PPP}}.	hcia::fundamentos::redes
+Para la interconexión a larga distancia entre ciudades o países, las redes WAN utilizan líneas de comunicación de {{c1::telecom operators}}.	hcia::fundamentos::redes
+En una topología Star, el principal punto único de falla es el {{c1::nodo central}}.	hcia::fundamentos::topologias
+La principal debilidad de seguridad en una topología Bus es que la información enviada por un nodo {{c1::puede ser recibida por todos los demás nodos conectados al medio compartido}}.	hcia::fundamentos::topologias
+En una topología Ring, la principal dificultad al agregar nuevos nodos es que {{c1::el anillo existente debe interrumpirse físicamente}} para insertarlos.	hcia::fundamentos::topologias
+Una topología Tree consiste funcionalmente en una estructura jerárquica de topologías {{c1::Star}}.	hcia::fundamentos::topologias
+Entre las topologías de red básicas, la que ofrece la mayor confiabilidad a expensas de un alto costo en puertos y cableado es la topología {{c1::Full-mesh}}.	hcia::fundamentos::topologias
+La principal ventaja de una topología Partial-mesh frente a una Full-mesh es el {{c1::menor costo en puertos físicos y cableado}}, al interconectar solo los nodos críticos.	hcia::fundamentos::topologias
